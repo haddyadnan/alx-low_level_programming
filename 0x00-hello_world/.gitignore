@@ -1,0 +1,5 @@
+#Vs code worspace
+*.code-workspace
+
+#C execution file
+*.out
