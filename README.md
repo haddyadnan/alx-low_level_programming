@@ -1,2 +1,1 @@
-# alx-low_level_programming
-ALX Low level programming
+ALX low level programming
