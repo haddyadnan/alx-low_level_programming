@@ -1,5 +1,6 @@
 #Vs code worspace
 *.code-workspace
+.vscode
 
 #C execution file
 *.out
