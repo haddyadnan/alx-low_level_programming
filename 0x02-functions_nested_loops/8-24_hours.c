@@ -9,12 +9,7 @@
 
 void jack_bauer(void)
 {
-	int a, b, c, d;
-
-	a = 0;
-	b = 0;
-	c = 0;
-	d = 0;
+	int a = 0, b = 0, c = 0, d = 0;
 
 	while (1)
 	{
