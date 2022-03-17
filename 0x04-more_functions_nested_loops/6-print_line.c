@@ -2,7 +2,7 @@
 
 /**
  * print_line - prints line
- * n: length of line
+ * @n: length of line
  *
  */
 
