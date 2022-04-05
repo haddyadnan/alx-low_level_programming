@@ -20,7 +20,7 @@ char *create_array(unsigned int size, char c)
 	}
 
 	p = malloc(size * sizeof(char));
-	if (a == NULL)
+	if (p == NULL)
 	{
 		return (NULL);
 	}
@@ -28,5 +28,5 @@ char *create_array(unsigned int size, char c)
 	{
 		p[i] = c;
 	}
-	return (a);
+	return (p);
 }
