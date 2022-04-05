@@ -6,7 +6,7 @@
  * str_concat - concantenates two strings
  * @s1: string 1
  * @s2: string 2
- * Return; pointer or Null
+ * Return: pointer or Null
  *
  */
 
