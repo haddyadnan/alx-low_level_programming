@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * cap_string - turn small case to caps
+ *
+ * @n: n
+ * Return: char*
+ */
+
 char *cap_string(char *n)
 {
 	int i;
