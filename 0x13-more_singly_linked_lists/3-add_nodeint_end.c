@@ -1,11 +1,11 @@
 #include "lists.h"
 
 /**
- * add_node_int
+ * add_nodeint_end - add node to end
  *
- * @param head
- * @param n
- * @return listint_t*
+ * @head: head singly list
+ * @n: n
+ * Return: listint_t*
  */
 
 listint_t *add_nodeint_end(listint_t **head, const int n)
