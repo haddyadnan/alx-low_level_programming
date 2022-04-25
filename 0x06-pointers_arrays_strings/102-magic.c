@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - change value of a
- *
- * Return: int
- */
-
 int main(void)
 {
 	int n;
