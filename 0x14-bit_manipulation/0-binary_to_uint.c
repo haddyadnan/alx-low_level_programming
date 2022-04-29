@@ -1,6 +1,11 @@
 #include "main.h"
 
-/*  */
+/**
+ * binary_to_uint - convert binary to unsigned integer
+ *
+ * @b: string
+ * Return: unsigned int
+ */
 
 unsigned int binary_to_uint(const char *b)
 {
