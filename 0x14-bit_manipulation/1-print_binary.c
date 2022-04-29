@@ -12,7 +12,10 @@ void print_binary(unsigned long int n)
 	int shifts;
 
 	if (n == 0)
+	{
 		_putchar('0');
+		return;
+	}
 
 	for (temp = n, shifts = 0; (temp >>= 1) > 0; shifts++)
 		;
