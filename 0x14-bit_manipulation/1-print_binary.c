@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * @brief
+ * print_binary - print binary
  *
- * @param n
+ * @n: num
  */
 
 void print_binary(unsigned long int n)
