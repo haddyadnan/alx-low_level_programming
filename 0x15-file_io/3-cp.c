@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 #define MAXSIZE 1204
 #define SE STDERR_FILENO
