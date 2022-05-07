@@ -5,6 +5,14 @@
 #define MAXSIZE 1204
 #define SE STDERR_FILENO
 
+/**
+ * main - copy file
+ *
+ * @ac:  argument count
+ * @av:  argument
+ * Return: int
+ */
+
 int main(int ac, char *av[])
 {
 	int input_fd, output_fd, istatus, ostatus;
