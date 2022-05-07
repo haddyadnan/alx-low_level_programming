@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * @brief
+ * append_text_to_file - Append text to end of file
  *
- * @param filename
- * @param text_content
- * @return int
+ * @filename: name of file
+ * @text_content: text content
+ * Return: 1
  */
 
 int append_text_to_file(const char *filename, char *text_content)
