@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * read_textfile - Read textfile and print
@@ -31,12 +32,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	write_c = write(STDOUT_FILENO, buff, read_c);
-	if (write_c == -1 || read_c == write_c)
+	if (write_c == -1 || read_c != write_c)
 	{
-		free(buff);
 		return (0);
 	}
-	free(buff);
 	close(fd);
 	return (write_c);
 }
