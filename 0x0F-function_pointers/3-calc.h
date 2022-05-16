@@ -1,5 +1,5 @@
-#ifndef OPERATIONS
-#define OPERATIONS
+#ifndef OPERATIONS_H
+#define OPERATIONS_H
 /**
  * struct op - Struct op
  *
@@ -17,4 +17,5 @@ int op_mul(int a, int b);
 int op_div(int a, int b);
 int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
-#endif
+
+#endif /* OPERATIONS_H */
