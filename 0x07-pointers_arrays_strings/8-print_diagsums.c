@@ -19,7 +19,7 @@ void print_diagsums(int *a, int size)
 		rsmall += a[i];
 	}
 
-	for (i = size - 1; i < s - 1; i += size - 1)
+	for (i = size - 1; i < n - 1; i += size - 1)
 	{
 		rbig += a[i];
 	}
