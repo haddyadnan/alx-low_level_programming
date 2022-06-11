@@ -2,9 +2,8 @@
 
 /**
  * get_dnodeint_at_index - Get the dnodeint at index object
- *
- * @head: 	dlist
- * @index: 	dlist
+ * @head: dlist head
+ * @index: dlist index
  * Return: dlistint_t*
  */
 
@@ -15,15 +14,14 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 	if (head == NULL)
 		return (NULL);
 	i = 0;
-	while (head->next)
+	while (head)
 	{
 		if (i == index)
 		{
 			return (head);
-			break;
 		}
-		else
-			i += 1;
+		i += 1;
+		head = head->next;
 	}
 	return (NULL);
 }
