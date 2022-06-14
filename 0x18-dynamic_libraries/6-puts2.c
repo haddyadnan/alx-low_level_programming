@@ -7,7 +7,7 @@
  *
  */
 
-void puts2(char *str)
+void _puts(char *str)
 {
 	int i;
 
