@@ -9,14 +9,9 @@
 
 void _print_rev_recursion(char *s)
 {
-	int i;
-
-	i = strlen(s);
-
-	while (i > 0)
+	if (*s != '\0')
 	{
-		_putchar(*(s + i));
-		i--;
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
-	_putchar('\n');
 }
