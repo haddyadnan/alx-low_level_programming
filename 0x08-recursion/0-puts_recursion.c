@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * @brief
+ * _puts_recursion - puts recursion
  *
- * @param s
+ * @s: string
  */
 
 void _puts_recursion(char *s)
