@@ -12,7 +12,7 @@ int opt(int n, int x)
 {
 	if (n % x == 0 || n % (x + 2) == 0)
 		return (n);
-	else if (x * x <= n)
+	else if ((x * x) <= n)
 		return (-1);
 	else
 		return (1);
