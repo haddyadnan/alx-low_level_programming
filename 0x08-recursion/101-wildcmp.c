@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * @brief
+ * wildcmp - compare
  *
- * @param s1
- * @param s2
- * @return int
+ * @s1: s1
+ * @s2: s2
+ * Return: int
  */
 
 /* TBD */
