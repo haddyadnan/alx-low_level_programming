@@ -10,7 +10,7 @@
 
 int opt(int n, int x)
 {
-	if (n % x == 0 || n % (x + 2) == 0)
+	if ((n % x) == 0 || (n % (x + 2) == 0))
 		return (n);
 	else if ((x * x) <= n)
 		return (-1);
@@ -31,7 +31,7 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	else if (n == 2 || n == 3)
+	else if ((n == 2) || n == 3)
 		return (1);
 	else if ((n % 2 == 0) || (n % 3 == 0) || n % 5 == 0 || n % 11 == 0)
 		return (0);
@@ -39,5 +39,5 @@ int is_prime_number(int n)
 		return (1);
 	else if (opt(n, n + 6) == -1)
 		return (0);
-	return (is_prime_number(n));
+	return (is_prime_number(n + 6));
 }
